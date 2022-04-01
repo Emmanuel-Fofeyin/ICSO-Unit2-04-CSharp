@@ -26,7 +26,6 @@ class Program
         Console.Write("Enter your perimeter: ");
         area = Convert.ToInt32(Console.ReadLine());
         perimeter = Convert.ToInt32(Console.ReadLine());
-        
         Console.WriteLine("");
         Console.WriteLine("Your info is: " + shapeRectangle + ", area " + area + ".");
         Console.WriteLine("");
