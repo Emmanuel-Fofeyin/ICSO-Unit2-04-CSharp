@@ -19,7 +19,6 @@ class Program
 
         Console.WriteLine("Enter length (mm): 3");
         Console.WriteLine("Enter width (mm): 5");
-        
         Console.WriteLine("The area is: 15 mm²");
         Console.WriteLine("The perimeter is: 16 mm");
         shapeRectangle = Console.ReadLine();
@@ -30,7 +29,7 @@ class Program
         
         Console.WriteLine("");
         Console.WriteLine("Your info is: " + shapeRectangle + ", area " + area + ".");
-         Console.WriteLine("");
+        Console.WriteLine("");
         Console.WriteLine("Your info is: " + shapeRectangle + ", perimeter " + perimeter + ".");
 
         Console.WriteLine("\nDone.");
